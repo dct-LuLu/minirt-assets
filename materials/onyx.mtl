@@ -1,0 +1,13 @@
+# MiniRT MTL File
+
+newmtl onyx
+Ns 300.0
+Ka 0.1 0.1 0.1
+Kd 1.0 1.0 1.0
+Ks 0.2 0.2 0.2
+Ni 1.0
+d 1.0
+Pr 1
+map_Kd minirt-assets/texture/onyx/texture.ppm
+map_bump minirt-assets/texture/onyx/normal.ppm
+map_Pr minirt-assets/texture/onyx/roughness.ppm

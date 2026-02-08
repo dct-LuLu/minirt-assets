@@ -1,0 +1,20 @@
+# Blender MTL File: 'None'
+# Material Count: 1
+
+newmtl Default_OBJ
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.5
+d 0.100000
+Pr 0.1
+Pm 1
+<<<<<<< HEAD
+=======
+# map_Kd minirt-assets/texture/gold/texture.ppm
+# map_bump minirt-assets/texture/gold/normal.ppm
+# map_Pr minirt-assets/texture/gold/roughness.ppm
+# map_Pm minirt-assets/texture/gold/metalness.ppm
+>>>>>>> bvh

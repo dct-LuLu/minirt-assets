@@ -1,0 +1,53 @@
+# MiniRT MTL File
+
+newmtl tiles1
+Ns 300.0
+Ka 0.1 0.1 0.1
+Kd 1.0 1.0 1.0
+Ks 0.15 0.15 0.15
+Ni 1.0
+d 1.0
+Pr 1
+# map_Kd minirt-assets/texture/tiles/1/texture.ppm
+# map_bump minirt-assets/texture/tiles/1/normal.ppm
+# map_Pr minirt-assets/texture/tiles/1/roughness.ppm
+# map_Ka minirt-assets/texture/tiles/1/ambient.ppm
+
+newmtl tiles2
+Ns 300.0
+Ka 0.1 0.1 0.1
+Kd 1.0 1.0 1.0
+Ks 0.15 0.15 0.15
+Ni 1.0
+d 1.0
+Pr 1
+map_Kd minirt-assets/texture/tiles/2/texture.ppm
+map_bump minirt-assets/texture/tiles/2/normal.ppm
+map_Pr minirt-assets/texture/tiles/2/roughness.ppm
+
+newmtl tiles3
+Ns 300.0
+Ka 0.1 0.1 0.1
+Kd 1.0 1.0 1.0
+Ks 0.15 0.15 0.15
+Ni 1.0
+d 1.0
+Pr 1
+map_Kd minirt-assets/texture/tiles/3/texture.ppm
+map_bump minirt-assets/texture/tiles/3/normal.ppm
+map_Pr minirt-assets/texture/tiles/3/roughness.ppm
+map_Ka minirt-assets/texture/tiles/3/ambient.ppm
+
+
+newmtl tiles4
+Ns 300.0
+Ka 0.1 0.1 0.1
+Kd 1.0 1.0 1.0
+Ks 0.15 0.15 0.15
+Ni 1.0
+d 1.0
+Pr 1
+# map_Kd minirt-assets/texture/tiles/4/texture.ppm
+# map_bump minirt-assets/texture/tiles/4/normal.ppm
+# map_Pr minirt-assets/texture/tiles/4/roughness.ppm
+# map_Ka minirt-assets/texture/tiles/4/ambient.ppm

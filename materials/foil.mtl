@@ -1,0 +1,14 @@
+# MiniRT MTL File
+
+newmtl foil
+Ns 800.0
+Ka 0.8 0.8 0.8
+Kd 1.0 1.0 1.0
+Ks 0.3 0.3 0.3
+Ni 1.0
+d 1.0
+Pr 1
+map_Kd minirt-assets/texture/foil/texture.ppm
+map_bump minirt-assets/texture/foil/normal.ppm
+map_Pr minirt-assets/texture/foil/roughness.ppm
+map_Ka minirt-assets/texture/foil/ambient.ppm
