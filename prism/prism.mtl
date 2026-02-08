@@ -1,12 +1,3 @@
-# Blender MTL File: 'None'
-# Material Count: 1
-
-newmtl prism
-Ns 800.0
-Ka 1.0 1.0 1.0
-Kd 1.0 1.0 1.0
-Ks 0.0 0.0 0.0
-Ni 1.52
-d 0.0
-Pr 0.00
-Pm 1
+version https://git-lfs.github.com/spec/v1
+oid sha256:8a194c30d77ebbb7127a93a11823cd1fa818d3f73fe8508c9e97d772d99336ef
+size 142

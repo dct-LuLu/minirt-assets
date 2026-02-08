@@ -1,15 +1,3 @@
-# MiniRT MTL File
-
-newmtl ornament
-Ns 200.0
-Ka 1 1 1
-Kd 1 1 1
-Ks 0.2 0.2 0.2
-Ni 1.3
-d 1.0
-Pr 1
-Pm 1
-map_Kd minirt-assets/texture/ornament/texture.ppm
-map_bump minirt-assets/texture/ornament/normal.ppm
-map_Pr minirt-assets/texture/ornament/roughness.ppm
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:260e7bc855c9b8c51ec0137b489c3c836c64c8a0352783b35a6d744908ce1760
+size 254

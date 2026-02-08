@@ -1,7 +1,3 @@
-newmtl RedEmission
-Ke 1 0.0 0.0
-Kd 0.1 0.1 0.1
-Ka 1.0 1.0 1.0
-Ks 0.0 0.0 0.0
-Ns 10.0
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:9c6c16231c7adc091fa937cb417566d032dc2cad7014f89c219c2fa2d15aabec
+size 86

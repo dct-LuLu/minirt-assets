@@ -1,22 +1,3 @@
-# Blender MTL File: 'None'
-# Material Count: 1
-
-newmtl GlassCube
-Ns 1000.0
-Ka 1.000000 1.000000 1.000000
-<<<<<<< HEAD
-Kd 0.000000 0.000000 0.000000
-Ks 0.200000 0.200000 0.200000
-Ke 0.000000 0.000000 0.000000
-Ni 1.3200000
-d 0.00000
-=======
-Kd 0.800000 0.800000 0.800000
-Ks 0.200000 0.200000 0.200000
-Ke 0.000000 0.000000 0.000000
-Ni 1.5200000
-d 0.000000
->>>>>>> bvh
-Pr 0
-Pm 1
-illum 2
+version https://git-lfs.github.com/spec/v1
+oid sha256:19dc916d6856eb47d80726543b0e44de38d1a3ab450e3eeffff8c44a164d222b
+size 383

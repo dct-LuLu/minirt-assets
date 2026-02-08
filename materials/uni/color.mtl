@@ -1,28 +1,3 @@
-# MiniRT MTL File
-
-newmtl red
-Ns 800.0
-Ka 1.0 1.0 1.0
-Kd 1.0 0.0 0.0
-Ks 0.1 0.0 0.0
-Ni 1.0
-d 1
-Pr 1
-
-newmtl green
-Ns 800.0
-Ka 1.0 1.0 1.0
-Kd 0.0 1.0 0.0
-Ks 0.0 0.1 0.0
-Ni 1.0
-d 1
-Pr 1
-
-newmtl blue
-Ns 800.0
-Ka 1.0 1.0 1.0
-Kd 0.0 0.0 1.0
-Ks 0.0 0.0 0.1
-Ni 1.0
-d 1
-Pr 1
+version https://git-lfs.github.com/spec/v1
+oid sha256:67d9bfc30cf9c5eb9edba763a7ce6e91ae00db7b416ff9305f763bcd10f481dd
+size 267
