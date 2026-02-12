@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-C 0,0,0 0.5,-0.7,0 70
-
-
-mtl minirt-assets/materials/checkerboard.mtl
-mtl minirt-assets/materials/uni/transparent.mtl
-mtl minirt-assets/materials/uni/emissive.mtl
-=======
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
@@ -14,7 +6,7 @@ mtl minirt-assets/materials/uni/emissive.mtl
 #    By: pabellis <mail@bellissantpablo.fr>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/14 06:02:30 by pabellis          #+#    #+#              #
-#    Updated: 2026/01/29 19:15:25 by jaubry--         ###   ########.fr        #
+#    Updated: 2026/02/12 02:16:25 by jaubry--         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,15 +21,10 @@ C 0,0,0 0.5,-0.7,0 70
 # L 10, 10, 0 1 255, 0, 0
 # L -10, 10, 0 1 0, 0, 255
 
->>>>>>> bvh
 
 # sp 0, 3, 0 3 255,255,255
 
 # #
-<<<<<<< HEAD
- pl 0,0,0 0,1,0 255,255,255 checkerboard 1
-# pl 0,10,0 0,-1,0 255,255,255 tiles
-=======
 sky minirt-assets/texture/skybox/nebula.ppm
 
 # mtl minirt-assets/materials/paving.mtl
@@ -68,7 +55,6 @@ mtl minirt-assets/materials/checkerboard.mtl
 # sp 0, 8, 0 10 0,0,0 emissive_white
 
 # pl 0,-1,0 1,0,0 0,0,0 onyx 0.1 
->>>>>>> bvh
 #
 #obj minirt-assets/triangle/triangle.obj 0, 4, 0 0, 0, 5 1,1,1
 # obj minirt-assets/chess/chess.obj 0, 0, 0      0, 0, 5     1, 1, 1
@@ -93,18 +79,6 @@ obj minirt-assets/bmw/bmw.obj 37, -5, -8.5           0.8, 0, 5     0.4,0.4,0.4
 # sp 0,-3,12 2 0,0,0 refract5
 # sp 0,-3,15 2 0,0,0 refract6
 #
-<<<<<<< HEAD
-# pl -10,0,0 1,0,0 255,255,255 tiles
-# pl 10,0,0 -1,0,0 255,255,255 tiles
-#
-# sp 0.50,0.90,0.33 0.60 0,0,0 glass
-# sp 0.51,0.90,0.33 0.10 0,0,0 emissive_cyan
-#obj minirt-assets/half/monkey.obj 0,0.53,0 0,0,5 0.5,0.5,0.5
-#sp 0.25, 1.5, 1 0.5 0,0,0 emissive_white
-#obj minirt-assets/half/cylinder.obj 0,-0.1,0.5 0,0,5 0.5,1,0.5
-obj minirt-assets/prism/prism.obj 0,-0.1,0 0,0,5 2,2,2
-sp 2, 1, 0 1 0,0,0 emissive_white
-=======
 # sp 0,0,0 2 0,0,0 reflect1
 # sp 0,0,3 2 0,0,0 reflect2
 # sp 0,0,6 2 0,0,0 refract1
@@ -120,4 +94,3 @@ pl 0,-5,0 0,1,0 0,0,0 checkerboard 1
 
 # pl 0,0,-5 0,0,1 0,0,0 mat_white 0.1
 # pl 0,0,5 0,0,-1 0,0,0 mat_white 0.1
->>>>>>> bvh
