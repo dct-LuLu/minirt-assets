@@ -30,7 +30,7 @@ mtl minirt-assets/materials/tiles.mtl
 # sp 0.00,0.30,-0.51 0.10 0,0,0 emissive_green
 
  sp 0.00,1,-0.51 1 0,0,0 glass
- sp 0.00,10,-0.51 1 0,0,0 emissive_white
+ sp 0.00,100,-0.51 50 0,0,0 emissive_white_10
 
 # Custom .obj #
 # Format : 'obj [path.obj] posX,Y,Z dirX,Y,Z scaleX,Y,Z'
