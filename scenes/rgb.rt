@@ -12,24 +12,28 @@ sky minirt-assets/texture/skybox/nebula.ppm
 
 # Materials #
 # Format : 'mtl [path.mtl]'
+mtl minirt-assets/materials/paving.mtl
 mtl minirt-assets/materials/uni/transparent.mtl
 mtl minirt-assets/materials/uni/emissive.mtl
-mtl minirt-assets/materials/sand.mtl
+mtl minirt-assets/materials/tiles.mtl
 
 # Primitive #
 #  - Sphere format : 'sp posX,Y,Z diameter material_name'
 #  - Plane format : 'pl posX,Y,Z normX,Y,Z material_name scaling'
-sp 0.50,0.30,0.33 0.60 0,0,0 glass_fence
-sp 0.51,0.30,0.33 0.10 0,0,0 emissive_blue
+# sp 0.50,0.30,0.33 0.60 0,0,0 glass_fence
+# sp 0.51,0.30,0.33 0.10 0,0,0 emissive_blue
+#
+# sp -0.50,0.30,0.33 0.60 0,0,0 glass_fence
+# sp -0.51,0.30,0.33 0.10 0,0,0 emissive_red
+#
+# sp 0.00,0.30,-0.50 0.60 0,0,0 glass_fence
+# sp 0.00,0.30,-0.51 0.10 0,0,0 emissive_green
 
-sp -0.50,0.30,0.33 0.60 0,0,0 glass_fence
-sp -0.51,0.30,0.33 0.10 0,0,0 emissive_red
-
-sp 0.00,0.30,-0.50 0.60 0,0,0 glass_fence
-sp 0.00,0.30,-0.51 0.10 0,0,0 emissive_green
+ sp 0.00,1,-0.51 1 0,0,0 glass
+ sp 0.00,10,-0.51 1 0,0,0 emissive_white
 
 # Custom .obj #
 # Format : 'obj [path.obj] posX,Y,Z dirX,Y,Z scaleX,Y,Z'
 #obj minirt-assets/cornel/cornell-box.obj 0.00,0.00,0.00 0.00,0.00,5.00 0.20,0.20,0.20
 
-pl 0,0,0 0,1,0 0,0,0 sand 1
+pl 0,0,0 0,1,0 0,0,0 paving1 1
