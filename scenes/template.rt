@@ -11,7 +11,6 @@
 # **************************************************************************** #
 
 C 0,5,0 0.5,0.3,0 70
-L 0,0,0 1 255,255,255
 
 A 0.2 255,255,255
 
@@ -31,17 +30,17 @@ sky minirt-assets/texture/skybox/nebula.ppm
 # mtl minirt-assets/materials/uni/reflect.mtl
 mtl minirt-assets/materials/checkerboard.mtl
 # mtl minirt-assets/materials/uni/mat.mtl
-# mtl minirt-assets/materials/uni/emissive.mtl
-# mtl minirt-assets/materials/uni/transparent.mtl
+mtl minirt-assets/materials/uni/emissive.mtl
+mtl minirt-assets/materials/uni/transparent.mtl
 # mtl minirt-assets/materials/metal.mtl
 # mtl	minirt-assets/materials/test.mtl
 # mtl minirt-assets/materials/wood.mtl
 # mtl minirt-assets/materials/ornament.mtl
 
-#obj minirt-assets/triangle/triangle.obj 0, 4, 0 0, 0, 5 1,1,1
+# obj minirt-assets/triangle/triangle.obj 0, 10, 0 0, 0, 5 1,1,1
 # obj minirt-assets/chess/chess.obj 0, 0, 0      0, 0, 5     1, 1, 1
-obj minirt-assets/bunny/bunny_high_poly.obj 10, 0,-15   0, 0, 5     10,10,10
-obj minirt-assets/bmw/bmw.obj 37, 0, -8.5           0.8, 0, 5     0.4,0.4,0.4
+# obj minirt-assets/bunny/bunny_high_poly.obj 10, 0,-15   0, 0, 5     10,10,10
+# obj minirt-assets/bmw/bmw.obj 37, 0, -8.5           0.8, 0, 5     0.4,0.4,0.4
 # obj minirt-assets/casino/casino.obj 0, -4.1, -50           0, 0, 5     1, 1, 1
 # obj minirt-assets/porsche/porsche.obj 31, 0, 3 3, 0, 5     1, 1, 1
 # obj minirt-assets/jesko/jesko.obj 31, 0, 3 3, 0, 5     5,5,5
@@ -52,6 +51,8 @@ obj minirt-assets/bmw/bmw.obj 37, 0, -8.5           0.8, 0, 5     0.4,0.4,0.4
 #obj minirt-assets/difract/difract.obj 0,-1,0 0,0,5 1,1,1
 #obj minirt-assets/square.obj 0,1,-5 0,0,5 20,5,1
 
-# obj minirt-assets/half/monkey.obj 5,1,0 0,0,5 1,1,1
-# obj minirt-assets/cornel/glass-cube.obj 0,0.05,0 0,0,5 1,1,1
-pl 0,0,0 0,1,0 0,0,0 checkerboard 1
+# obj minirt-assets/half/monkey.obj 4,1.2,0 0,0,5 1,1,1
+# obj minirt-assets/cornel/glass-cube.obj 0,2,0 0.2,0.4,1 1,1,1
+sp 0,3,0 4 255,255,255 glass
+# sp 0,200,0 100 255,255,255 emissive_white
+# pl 0,0,0 0,1,0 0,0,0 checkerboard 1

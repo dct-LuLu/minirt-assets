@@ -20,17 +20,15 @@ mtl minirt-assets/materials/tiles.mtl
 # Primitive #
 #  - Sphere format : 'sp posX,Y,Z diameter material_name'
 #  - Plane format : 'pl posX,Y,Z normX,Y,Z material_name scaling'
-# sp 0.50,0.30,0.33 0.60 0,0,0 glass_fence
-# sp 0.51,0.30,0.33 0.10 0,0,0 emissive_blue
-#
-# sp -0.50,0.30,0.33 0.60 0,0,0 glass_fence
-# sp -0.51,0.30,0.33 0.10 0,0,0 emissive_red
-#
-# sp 0.00,0.30,-0.50 0.60 0,0,0 glass_fence
-# sp 0.00,0.30,-0.51 0.10 0,0,0 emissive_green
+sp 0.50,0.30,0.33 0.60 0,0,0 glass_fence
+sp 0.51,0.30,0.33 0.10 0,0,0 emissive_blue
 
- sp 0.00,1,-0.51 1 0,0,0 glass
- sp 0.00,100,-0.51 50 0,0,0 emissive_white_10
+sp -0.50,0.30,0.33 0.60 0,0,0 glass_fence
+sp -0.51,0.30,0.33 0.10 0,0,0 emissive_red
+
+sp 0.00,0.30,-0.50 0.60 0,0,0 glass_fence
+sp 0.00,0.30,-0.51 0.10 0,0,0 emissive_green
+
 
 # Custom .obj #
 # Format : 'obj [path.obj] posX,Y,Z dirX,Y,Z scaleX,Y,Z'
